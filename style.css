@@ -19,10 +19,11 @@ a {
 .btn-primary {
 	border: 2px solid #ee6915;
 	border-radius: 5px;
-	background-color: #FD6E0A;
+	background-color: #FD6E0A!important;
 	padding: 10px 18px;
-	color: azure;
+	color: azure!important;
 	font-weight: 600;
+	width: auto!important;
 }
 
 .btn-outline {
@@ -38,7 +39,7 @@ a {
 	margin-bottom: 30px;
 }
 
-.text-center{
+.text-center {
 	text-align: center;
 }
 
@@ -223,37 +224,82 @@ main {
 	gap: 50px;
 }
 
-.resume-title{
+.resume-title {
 	color: #474747;
 	font-size: 30px;
 	font-weight: 700;
 	margin-bottom: 20px;
 }
 
-.resume h4{
-	color:#474747;
-font-size: 25px;
-font-weight: 700;
+.resume h4 {
+	color: #474747;
+	font-size: 25px;
+	font-weight: 700;
 }
 
-.resume h5{
-	color:#757575;
-font-size: 20px;
-font-weight: 500;
+.resume h5 {
+	color: #757575;
+	font-size: 20px;
+	font-weight: 500;
 }
 
-.resume p{
-	color:#757575;
-font-size: 16px;
-font-weight: 400;
-line-height: 28px;
+.resume p {
+	color: #757575;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 28px;
 }
 
-.resume *{
+.resume * {
 	margin-bottom: 20px;
 }
 
-footer{
+footer {
+	display: flex;
+	justify-content: center;
 	margin-top: 130px;
+	padding-top: 130px;
 	background: #FFF8F3;
+}
+
+.footer-container {
+	display: flex;
+	gap: 50px;
+	width: 1140px;
+	justify-content: center;
+}
+
+.footer-box{
+	width: 50%;
+}
+
+.footer-title {
+	color: #181818;
+	font-size: 35px;
+	font-weight: 700;
+	margin-bottom: 30px;
+}
+
+#contact input,
+#contact textarea {
+	display: block;
+	width: 100%;
+	padding: 18px 30px;
+	color: #757575;
+	background: white;
+	border: none;
+	margin-bottom: 20px;
+}
+
+.footer-icon{
+	display: flex;
+	gap: 24px;
+}
+
+.footer-text {
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 30px;
 }
