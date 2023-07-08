@@ -1,0 +1,58 @@
+/* Global Styles */
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: ;
+}
+
+a{
+	text-decoration: none;
+	color: #0d1828;
+}
+.btn-primary{
+	border: 2px solid #ee6915;
+	border-radius: 5px;
+	background-color:#ff6915;
+	padding: 10px 18px;
+	color: azure;
+	font-weight: 600;
+}
+
+/* Nav Styles */
+nav{
+display: flex;
+justify-content: center;
+}
+
+.nav-container{
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 1140px;
+margin: 5px 10px;
+}
+
+.nav-container h1{
+	font-size: 40px;
+}
+
+.nav-container ul{
+	display: flex;
+	align-items: center;
+}
+ 
+.nav-container li{
+	list-style: none;
+	margin-left: 25px;
+}
+
+
+/* Header Banner Section */
+header{
+	background: #ffdfd5;
+	height: 100vh;
+}
