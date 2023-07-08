@@ -38,6 +38,10 @@ a {
 	margin-bottom: 30px;
 }
 
+.text-center{
+	text-align: center;
+}
+
 /* Nav Styles */
 nav {
 	display: flex;
@@ -116,7 +120,7 @@ header {
 }
 
 /* Main Section  */
-main{
+main {
 	display: block;
 	margin: 0 auto;
 	width: 1140px;
@@ -210,4 +214,46 @@ main{
 	font-style: normal;
 	font-weight: 400;
 	line-height: 28px;
+}
+
+/* Resume Section  */
+.resume {
+	margin: 120px 10px 30px;
+	display: flex;
+	gap: 50px;
+}
+
+.resume-title{
+	color: #474747;
+	font-size: 30px;
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+
+.resume h4{
+	color:#474747;
+font-size: 25px;
+font-weight: 700;
+}
+
+.resume h5{
+	color:#757575;
+font-size: 20px;
+font-weight: 500;
+}
+
+.resume p{
+	color:#757575;
+font-size: 16px;
+font-weight: 400;
+line-height: 28px;
+}
+
+.resume *{
+	margin-bottom: 20px;
+}
+
+footer{
+	margin-top: 130px;
+	background: #FFF8F3;
 }
