@@ -116,7 +116,7 @@ header {
 }
 
 /* Main Section  */
-main{
+.about{
 	display: flex;
 	justify-content: center;
 }
@@ -153,3 +153,18 @@ font-weight: 400;
 .info-description{
 font-weight: 700;
 }
+
+.skill-box{
+	display: block;
+	margin: 0 auto;
+	justify-content: center;
+	width: 900px;
+	margin-bottom: 40px;
+}
+.skill-text{
+	color:#757575;
+text-align: center;
+font-size: 18px;
+line-height: 30px;
+}
+
