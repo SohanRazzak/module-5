@@ -30,6 +30,14 @@ a {
 	color: #FD6E0A;
 }
 
+.section-title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+	margin-bottom: 30px;
+}
+
 /* Nav Styles */
 nav {
 	display: flex;
@@ -67,7 +75,7 @@ header {
 	/* height: 100vh; */
 	background-image: url(/images/header_bg.png), url(/images/developer.png);
 	background-repeat: no-repeat;
-	background-position: bottom right, 20px 40px;
+	background-position: bottom right, 20px 30px;
 }
 
 .main-pic {
@@ -105,4 +113,43 @@ header {
 	flex-direction: column;
 	flex-shrink: 0;
 	margin-bottom: 20px;
+}
+
+/* Main Section  */
+main{
+	display: flex;
+	justify-content: center;
+}
+
+.about-box{
+	max-width: 1140px;
+	padding:130px 155px;
+	margin: 130px 0px;
+	border-radius: 10px;
+background: #FFF8F3;
+}
+
+.about-text{
+	color:#757575;
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+margin-bottom: 30px;
+}
+
+.about-info-container{
+	display: flex;
+	justify-content: space-around;
+}
+
+.info-title,.info-description{
+	color: #757575;
+text-align: center;
+font-size: 20px;
+font-weight: 400;
+}
+
+.info-description{
+font-weight: 700;
 }
