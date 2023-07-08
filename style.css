@@ -31,10 +31,10 @@ a {
 }
 
 .section-title {
-    color: #181818;
-    text-align: center;
-    font-size: 35px;
-    font-weight: 700;
+	color: #181818;
+	text-align: center;
+	font-size: 35px;
+	font-weight: 700;
 	margin-bottom: 30px;
 }
 
@@ -116,55 +116,98 @@ header {
 }
 
 /* Main Section  */
-.about{
+main{
+	display: block;
+	margin: 0 auto;
+	width: 1140px;
+}
+
+.about {
 	display: flex;
 	justify-content: center;
 }
 
-.about-box{
+.about-box {
 	max-width: 1140px;
-	padding:130px 155px;
+	padding: 130px 155px;
 	margin: 130px 0px;
 	border-radius: 10px;
-background: #FFF8F3;
+	background: #FFF8F3;
 }
 
-.about-text{
-	color:#757575;
-text-align: center;
-font-size: 18px;
-font-weight: 400;
-line-height: 30px;
-margin-bottom: 30px;
+.about-text {
+	color: #757575;
+	text-align: center;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 30px;
+	margin-bottom: 30px;
 }
 
-.about-info-container{
+.about-info-container {
 	display: flex;
 	justify-content: space-around;
 }
 
-.info-title,.info-description{
+.info-title,
+.info-description {
 	color: #757575;
-text-align: center;
-font-size: 20px;
-font-weight: 400;
+	text-align: center;
+	font-size: 20px;
+	font-weight: 400;
 }
 
-.info-description{
-font-weight: 700;
+.info-description {
+	font-weight: 700;
 }
 
-.skill-box{
+.skill-box {
 	display: block;
 	margin: 0 auto;
 	justify-content: center;
 	width: 900px;
-	margin-bottom: 40px;
-}
-.skill-text{
-	color:#757575;
-text-align: center;
-font-size: 18px;
-line-height: 30px;
+	margin-bottom: 50px;
 }
 
+.skill-text {
+	color: #757575;
+	text-align: center;
+	font-size: 18px;
+	line-height: 30px;
+}
+
+/* Skill Card Section  */
+.card-container {
+	display: flex;
+	gap: 30px;
+	width: 1140px;
+	margin-bottom: 130px;
+}
+
+.card-box {
+	border-radius: 5px;
+	background: #FFF;
+	box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+	padding: 30px;
+}
+
+.card-box img {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 24px;
+}
+
+.card-box h4 {
+	color: #181818;
+	font-size: 20px;
+	font-weight: 700;
+	margin-bottom: 24px;
+}
+
+.card-box p {
+	color: #757575;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 28px;
+}
